@@ -30,8 +30,6 @@ void addItem() {
         printf("Inventory is full. Cannot add more items.\n");
     }
 }
-
-
 void displayItems() {
     if (itemCount == 0) {
         printf("No items in inventory.\n");
@@ -44,8 +42,6 @@ void displayItems() {
     }
     printf("-------------------------\n");
 }
-
-
 void updateQuantity(){ 
      int exsistingID, newQuantity;
     printf("Enter Item ID to update quantity: ");
@@ -65,7 +61,6 @@ void updateQuantity(){
         printf("Item not found.\n");
     }
 }
-
 int main() {
    int choice;
    do {
@@ -76,8 +71,7 @@ int main() {
         printf("4. Exit\n");
         printf("Enter your choice: ");
         scanf("%d", &choice);
-
-        switch (choice) {
+     switch (choice) {
             case 1:
                 addItem();
                 break;
