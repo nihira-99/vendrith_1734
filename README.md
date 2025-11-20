@@ -68,8 +68,7 @@ void updateQuantity(){
 
 int main() {
    int choice;
-
-    do {
+   do {
         printf("\n--- Grocery Store Management System ---\n");
         printf("1. Add Item\n");
         printf("2. Display All Items\n");
