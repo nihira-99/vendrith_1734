@@ -1,6 +1,7 @@
 # vendrith_1734
 PROJECT TITLE
 GROCERY STORE MANAGEMENT SYSTEM 
+
 #include <stdio.h>
 #define max_length 10
      struct groceryitem{
